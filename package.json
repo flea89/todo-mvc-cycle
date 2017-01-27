@@ -3,11 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "cycle-scripts-es-browserify": "0.7.5"
+    "babel-eslint": "^7.1.1",
+    "cycle-scripts-es-browserify": "0.7.5",
+    "eslint": "^3.14.0",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-plugin-cycle": "^1.0.2"
   },
   "dependencies": {
     "@cycle/dom": "14.0.0",
+    "@cycle/http": "^11.3.0",
+    "@cycle/isolate": "^1.4.0",
     "@cycle/xstream-run": "^4.2.0",
+    "immutable": "^3.8.1",
+    "todomvc-app-css": "^2.0.6",
     "xstream": "^9.3.0"
   },
   "scripts": {
